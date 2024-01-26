@@ -1,11 +1,12 @@
 import Link from "next/link"
 
 const HomePage = () => {
+  console.log("Home Page")
   return (
     <div>
-      <h1 className="text-7xl">Home Page</h1>
-      <Link href="/about" className="text-2xl">
-        About Page
+      <h1 className="text-5xl  mb-8 font-bold">NextJS Tutorial</h1>
+      <Link href="/client" className="btn btn-accent">
+        Get Started
       </Link>
     </div>
   )
