@@ -786,9 +786,9 @@ datasource db {
 }
 ```
 
-- ADD .ENV TO .GITIGNORE !!!!
+- ADD .env to .gitignore !!!!
 
-.env
+.env file
 
 ```js
 DATABASE_URL = "file:./dev.db"
