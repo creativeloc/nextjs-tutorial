@@ -11,8 +11,8 @@ const SingleTaskPage = async ({ params }) => {
         <Link href="/tasks" className="btn btn-accent">
           Back to Tasks
         </Link>
-        <EditForm task={task} />
       </div>
+      <EditForm task={task} />
     </>
   )
 }
