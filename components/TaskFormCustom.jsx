@@ -11,7 +11,7 @@ const SubmitBtn = () => {
       className="btn btn-primary join-item"
       disabled={pending}
     >
-      Create Task
+      {pending ? "please wait..." : "Create Task"}
     </button>
   )
 }
@@ -27,6 +27,7 @@ const TaskForm = () => {
           name="content"
           required
         />
+        <SubmitBtn />
       </div>
     </form>
   )
