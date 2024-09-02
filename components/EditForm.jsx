@@ -18,7 +18,7 @@ const EditForm = ({ task }) => {
         className="input input-bordered w-full"
       />
       {/* completed */}
-      <div className="form-control">
+      <div className="form-control my-4">
         <label htmlFor="completed" className="label cursor-pointer">
           <span className="label-text">Completed</span>
           <input
@@ -30,6 +30,9 @@ const EditForm = ({ task }) => {
           />
         </label>
       </div>
+      <button type="submit" className="btn btn-primary btn-block btn-sm">
+        Edit
+      </button>
     </form>
   )
 }
